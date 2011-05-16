@@ -1,0 +1,21 @@
+Start a rails server: rails s
+Locations of the local server: localhost:3000
+Forces a command: bundle exec
+Run test: rspec spec/
+Run Autotest in the background: autotest
+Run a server to speed up autotest: spork
+delete a file: rm path/file
+
+Git Commands:
+commit to git: git commit
+add changes to git: git add .
+add a message: -m "message here"
+Make a repository at github: git remote add origin git@github.com:<mebpenguin>/app_name.git
+Push to github: git push origin master
+create a project on heroku: heroku create
+push project to heroku: git push heroku master
+checkout a new branch: git checkout -b branch-name
+checkout the master: git checkout master
+merge branch to master: git merge branch-name
+
+Git command git commit -a -m "Message", with flags for “all changes” (-a) and a message (-m). As shown above, Git also lets us roll the two flags into one using git commit -am "Message".
